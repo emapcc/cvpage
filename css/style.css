@@ -11,10 +11,13 @@ h1 {
 }
 
 header {
+  /*height: 69px;*/
   color: white;
-  background-color: #D0D8DF;
+  background-color: rgb(12, 5, 18);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  position: sticky;
 }
 header img {
   width: 25px;
@@ -22,25 +25,44 @@ header img {
   margin-top: 5px;
 }
 header nav {
-  background-color: #D0D8DF;
+  background-color: rgb(12, 5, 18);
 }
 header nav ul {
-  background-color: #D0D8DF;
+  background-color: rgb(12, 5, 18);
+  align-items: center !important;
+  margin-top: 5px !important;
 }
 header nav ul li {
-  background-color: #D0D8DF;
+  background-color: rgb(12, 5, 18);
+  align-items: center;
   display: inline-flex;
   flex-wrap: wrap-reverse;
 }
 header nav ul li a {
   color: white;
-  background-color: #D0D8DF;
+  background-color: rgb(12, 5, 18);
   text-decoration: none;
-  padding: 5px;
-  margin: auto 15px;
+  align-items: center;
+  font-size: 12px;
+  font-style: normal;
+  line-height: normal;
+  margin: 15px 15px 5px 15px;
 }
-
-.enlace_inicio:hover {
+header nav ul li a:hover {
+  color: gray;
+}
+header a {
+  font-size: 12px;
+  line-height: normal;
+  color: black;
+  background: #D9D9D9;
+  text-decoration: none;
+  align-items: center;
+  padding: 5px 8px;
+  border-radius: 4px;
+  margin: 15px;
+}
+header a:hover {
   color: gray;
 }
 
